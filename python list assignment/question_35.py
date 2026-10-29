@@ -1,0 +1,4 @@
+# Remove all even numbers from a list.
+numbers = [1, 2, 3, 4, 5, 6]
+odd_numbers = [number for number in numbers if number % 2 != 0]
+print(odd_numbers)
